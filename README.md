@@ -2,8 +2,8 @@
 HeyGen Takehome Assignment
 
 ## Files explained:
-client.js is the initial file used for development and testing.
-clientLibrary.js is the first library developed without any inputs
+client.js is the initial file used for development and testing.<br />
+clientLibrary.js is the first library developed without any inputs. <br />
 clientLibrary1.js is the second library developed that takes api urls as an input. (more functional)
 
 server.js is the server created to mimic an actual production server
