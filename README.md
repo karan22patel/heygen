@@ -6,11 +6,11 @@ client.js is the initial file used for development and testing.<br />
 clientLibrary.js is the first library developed without any inputs. <br />
 clientLibrary1.js is the second library developed that takes api urls as an input. (more functional)
 
-server.js is the server created to mimic an actual production server
+server.js is the server created to mimic an actual production server<br />
 serverTest.js is the test server used for the integration tests
 
-test.js is the integration test testing client.js
-test2.js is the integration test testing clientLibrary.js
+test.js is the integration test testing client.js<br />
+test2.js is the integration test testing clientLibrary.js<br />
 test3.js is the integration test testing cleintLibrary1.js
 
 ## How the logic works. 
@@ -23,15 +23,15 @@ The slow-down function is used to ensure that if the values for minTime and optT
 *Perhaps an exponential or cubic function could also be implemented to adjust the timings similar to the idea of TCP cubic congestion control. This method may be more robust.
 
 ## Usage of the files.
-To run server.js you can do: node server.js
+To run server.js you can do: node server.js<br />
 To run client.js you can use: node client.js
 
-To run test you can do: npm test
-to run test2 you can do: npm run test2
+To run test you can do: npm test<br />
+to run test2 you can do: npm run test2<br />
 To run test3 you can do: npm run test3
 
-To use clientLibrary1: Sample usage is found in index.js
-To run index.js, you can do node: index.js
+To use clientLibrary1: Sample usage is found in index.js<br />
+To run index.js, you can do node: index.js<br />
 To use client library: follow index.js but remove input URL's
 
 state.json is the save file for the min and optimal times. *A maximum time was also saved for the intention of stopping the function if it takes more than max Time, (not implemented). 
