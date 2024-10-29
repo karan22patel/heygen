@@ -1,5 +1,8 @@
 # heygen
-HeyGen Takehome Assignment
+HeyGen Takehome Assignment:
+My interpretation was that we are triggering some sort of process which I mimicked with const apiURL = 'http://localhost:3000/send'; <br />
+Then we get the status of that process, with a URL such as const apiURL2 = 'http://localhost:3000/status'; <br />
+We want to check when the process is done optimally, without losing time and without congesting the server.
 
 ## Files explained:
 client.js is the initial file used for development and testing.<br />
